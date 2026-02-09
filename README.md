@@ -141,5 +141,5 @@ Contributions are what make the open source community such an amazing place to l
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
-Built with ❤️ by [Antigravity](https://github.com/google-deepmind/antigravity)
+Built with ❤️ by [tuanasish](https://github.com/tuanasish)
 
