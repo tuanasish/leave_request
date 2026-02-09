@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono);
+
+  /* Premium Military Green / Olive Palette */
+  --color-primary-50: #f4f5f1;
+  --color-primary-100: #e4e7d7;
+  --color-primary-200: #cad1af;
+  --color-primary-300: #a8b37e;
+  --color-primary-400: #899654;
+  --color-primary-500: #6d7b3d;
+  --color-primary-600: #576332;
+  --color-primary-700: #444c29;
+  --color-primary-800: #383e23;
+  --color-primary-900: #303521;
+  --color-primary-950: #1a1e12;
+
+  /* Global Override: Map Indigo and Blue to our Military Green */
+  --color-indigo-50: #f4f5f1;
+  --color-indigo-100: #e4e7d7;
+  --color-indigo-200: #cad1af;
+  --color-indigo-300: #a8b37e;
+  --color-indigo-400: #899654;
+  --color-indigo-500: #6d7b3d;
+  --color-indigo-600: #576332;
+  --color-indigo-700: #444c29;
+  --color-indigo-800: #383e23;
+  --color-indigo-900: #303521;
+  --color-indigo-950: #1a1e12;
+
+  --color-blue-50: #f4f5f1;
+  --color-blue-100: #e4e7d7;
+  --color-blue-200: #cad1af;
+  --color-blue-300: #a8b37e;
+  --color-blue-400: #899654;
+  --color-blue-500: #6d7b3d;
+  --color-blue-600: #576332;
+  --color-blue-700: #444c29;
+  --color-blue-800: #383e23;
+  --color-blue-900: #303521;
+  --color-blue-950: #1a1e12;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}

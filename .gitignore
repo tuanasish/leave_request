@@ -1,0 +1,28 @@
+# documentation & planning
+docs/
+plans/
+.brain/
+
+# IDE & editors
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# installers
+*.exe
+*.msi
+*.zip
+*.7z
+
+# office documents
+*.pdf
+*.docx
+*.xlsx
+*.pptx
+
+# logs
+*.log
+
